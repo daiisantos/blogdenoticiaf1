@@ -1,0 +1,219 @@
+body {
+  margin: 0%;
+  background-color: azure;
+  font-family: sans-serif;
+}
+
+
+
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  background-color: rgb(241, 7, 7);
+  padding: 0 20px;
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+}
+
+.pesquisa {
+  margin-left: auto; 
+  
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 23px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-right: 40%;
+
+}
+
+main h2{
+  color: rgb(190, 184, 177);
+}
+aside h2{
+  color: rgb(190, 184, 177);
+}
+a{
+  text-decoration: none;
+}
+
+span {
+  color: yellow;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(60, 58, 58);
+}
+
+nav a {
+  color: blanchedalmond;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+a:hover {
+  color: rgb(237, 242, 160);
+}
+
+main {
+  padding: 20px;
+}
+
+
+.noticias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+article {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.introducao {
+  margin-top: 16px;
+  width: 80%;
+  height: 20%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* ou 250px, dependendo do que quiser */
+  margin: 20px auto;
+  /* centraliza */
+}
+
+aside img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.noticias article a:hover {
+  text-decoration: underline;
+}
+
+
+article {
+  transition: transform 0.3s ease; /* duração e suavidade da animação */
+}
+
+article:hover {
+  transform: scale(1.1); /* aumenta 10% no tamanho */
+}
+
+.introducao{
+    transition: transform 0.3s ease;
+}
+.introducao:hover {
+   transform: scale(1.1); 
+}
+
+h3{
+ font-size:x-large;
+ color: rgb(86, 78, 65);
+  padding-left: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+p footer{
+  color: #fff;
+}
+
+.classificacao img{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-left: 30%;
+}
+.classificacao h1 {
+  color: rgb(134, 38, 26);
+}
+
+.imgnoticia{
+  width: 50%;
+ height: 850px;
+}
+
+.texto{
+  margin-left: 20px;
+}
+#sobre{
+  color: rgb(203, 160, 107);
+  margin-left: 20px;
+}
+
+#lista{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.imgintroducao{
+  width: 70%;
+}
